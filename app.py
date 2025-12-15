@@ -11,7 +11,7 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.graph import END, MessageGraph
 from langchain_ibm import ChatWatsonx
 
-model_id = 'ibm/granite-3-3-8b-instruct'
+model_id = 'meta-llama/llama-3-3-70b-instruct'
 
 project_id = config.WATSONX_PROJECT_ID
 
